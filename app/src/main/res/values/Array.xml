@@ -5,7 +5,10 @@
         <item>Rojo</item>
         <item>Verde</item>
         <item>Amarillo</item>
+        <item>Naranja</item>
         <item>Magenta</item>
         <item>Cian</item>
+        <item>Blanco</item>
+        <item>Negro</item>
     </string-array>
 </resources>

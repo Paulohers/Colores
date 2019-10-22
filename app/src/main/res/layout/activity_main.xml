@@ -6,41 +6,59 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <Button
+        android:id="@+id/C2"
+        android:layout_width="71dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="43dp"
+        android:layout_marginTop="36dp"
+        app:layout_constraintStart_toEndOf="@+id/C1"
+        app:layout_constraintTop_toBottomOf="@+id/button" />
+
+    <Button
+        android:id="@+id/C1"
+        android:layout_width="71dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="36dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button" />
+
+    <Button
+        android:id="@+id/C3"
+        android:layout_width="71dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="36dp"
+        app:layout_constraintStart_toEndOf="@+id/C2"
+        app:layout_constraintTop_toBottomOf="@+id/button" />
+
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="88dp"
+        android:layout_marginTop="42dp"
         android:text="Perfiles de Colores"
         android:textSize="28sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.061" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Spinner
         android:id="@+id/spinner"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="21dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
     <Button
         android:id="@+id/button"
-        android:layout_width="291dp"
-        android:layout_height="92dp"
-        android:layout_marginStart="10dp"
-        android:layout_marginTop="20dp"
+        android:layout_width="286dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="49dp"
+        android:layout_marginTop="10dp"
         android:text="Button"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/spinner2" />
-
-    <Spinner
-        android:id="@+id/spinner2"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="15dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/spinner" />
 
@@ -48,10 +66,10 @@
         android:id="@+id/textView2"
         android:layout_width="288dp"
         android:layout_height="61dp"
-        android:layout_marginStart="15dp"
-        android:layout_marginTop="34dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="22dp"
         android:text="Perfiles de colores que contempla los colores primario y secundarios."
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button" />
+        app:layout_constraintTop_toBottomOf="@+id/C2" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
