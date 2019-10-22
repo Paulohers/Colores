@@ -3,7 +3,7 @@
 ### Autor
 Paulo Ramírez León
 
-### Description
+### Descripción
 Este proyecto trata de enseñar a un publico sin conocimiento alguno de mezclas de colores, o mas bien las combinaciones que se necesitan
 para llegar a un color en especifico. El proyecto se mantendrá en constante cambio por lo cual sera necesario mantenerse actualizado.
 
